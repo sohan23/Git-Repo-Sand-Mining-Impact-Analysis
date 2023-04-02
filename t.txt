@@ -1,0 +1,29 @@
+import os
+import pandas as pd
+
+# Replace 'path/to/folder' with the path to the folder containing your XLS files
+folder_path = 'path/to/folder'
+
+# Get a list of all XLS files in the folder
+xls_files = [f for f in os.listdir(folder_path) if f.endswith('.xls')]
+
+# Create an empty DataFrame to hold the results
+results_df = pd.DataFrame(columns=['File Name', 'Area'])
+
+# Loop through each XLS file, sum the 'Area' column, and append the result to the results_df
+for xls_file in xls_files:
+    # Load the XLS file into a DataFrame
+    xls_df = pd.read_excel(os.path.join(folder_path, xls_file))
+    
+    # Extract the file name from the full path and add it as a new column to the results_df
+    file_name = os.path.splitext(os.path.basename(xls_file))[0]
+    
+    # Calculate the sum of the 'Area' column
+    area_sum = xls_df['Area'].sum()
+    
+    # Append the result to the results_df
+    results_df = results_df.append({'File Name': file_name, 'Area': area_sum}, ignore_index=True)
+
+# Save the results_df to a CSV file in the same folder as the input XLS files
+results_path = os.path.join(folder_path, 'results.csv')
+results_df.to_csv(results_path, index=False)
