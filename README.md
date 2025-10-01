@@ -51,7 +51,7 @@ The overall accuracy of the classification model ranged from 61% to 92%, demonst
 
 ![Geomorphic Map|200](figures/Meander-png.png) 
 ![Geomorphic Map|200](figures/Bar.png)
-![Geomorphic Map|200](figures/Width.png)
+![Geomorphic Map|200](figures/1965-2000.png)
 
 ### How to Use
 
