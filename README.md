@@ -50,8 +50,10 @@ The study revealed significant morphological changes in the Yamuna River over th
 The overall accuracy of the classification model ranged from 61% to 92%, demonstrating the effectiveness of the approach, especially with low cloud cover.
 
 ![Geomorphic Map|200](figures/Meander-png.png) 
+
 ![Geomorphic Map|200](figures/Bar.png)
-![Geomorphic Map|200](figures/1965-2000.png)
+
+![Geomorphic Map|200](figures/1965-2020.png)
 
 ### How to Use
 
