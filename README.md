@@ -70,12 +70,12 @@ This study can be further improved by:
 
 ### Acknowledgments
 
-I would like to express my sincere gratitude to my supervisors, Dr. Kumar Gaurav and Dr. Christopher R. Hackney, for their invaluable guidance and support throughout this project[cite: 51]. I would also like to thank my thesis committee members and the students of the Fluvial Geomorphology and Remote Sensing Lab for their insightful comments and encouragement.
+I would like to express my sincere gratitude to my supervisors, **Dr. Kumar Gaurav** and **Dr. Christopher R. Hackney**, for their invaluable guidance and support throughout this project. I would also like to thank my thesis committee members and the students of the Fluvial Geomorphology and Remote Sensing Lab for their insightful comments and encouragement.
 
 ### Contact
 
 For any questions or collaborations, please feel free to reach out:
 
-* **Name**: Sohan Nag
-* **LinkedIn**: www.linkedin.com/in/sohan23
-* **GitHub**: https://github.com/sohan23/
+* **Name**: **Sohan Nag**
+* **LinkedIn**: **www.linkedin.com/in/sohan23**
+* **GitHub**: **https://github.com/sohan23/**
