@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Impact of Sand Mining on the Morphology of the Yamuna River
 
 ## A Remote Sensing and Machine Learning Approach
