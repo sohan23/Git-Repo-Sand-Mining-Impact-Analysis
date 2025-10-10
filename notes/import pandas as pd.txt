@@ -1,0 +1,12 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the Excel file
+df = pd.read_excel('file.xlsx')
+
+# Get the last row values of each column
+last_row = df.iloc[-1]
+
+# Create a bar plot
+last_row.plot(kind='bar')
+plt.show()
